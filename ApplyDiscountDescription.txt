@@ -1,0 +1,9 @@
+1- using assert statements in Python can be helpful for catching errors early in the development process.
+2- assert statements are a convenient way to insert debugging assertions into a program:
+3- assert statement is ignored when the program is run with the -O or -OO options.
+4- The assert statement is intended for debugging statements.
+5- The assert statement is used to check types, values of argument and the output of the function.
+6- assert statement is used as debugging tool as it halts the program at the point where an error occurs.
+7- When the -O flag is used, all assert statements are ignored and not executed. This helps
+to improve the performance of the code in production environments
+8- Instead of using assert, we can use if statements to check conditions and raise exceptions if necessary
